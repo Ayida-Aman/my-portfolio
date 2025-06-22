@@ -577,6 +577,17 @@ body {
   transition: var(--transition);
 }
 
+.footer__icon {
+  height: 20px;
+  object-fit: contain;
+  filter: brightness(0) invert(1); /* ensures white look on dark backgrounds */
+  transition: var(--transition);
+}
+
+.footer__icon:hover {
+  filter: none;
+}
+
 .footer__contact {
   font-size: var(--fs-lg);
   color: var(--color-text);
@@ -586,7 +597,7 @@ body {
 }
 
 .footer__social-link:hover,
-.footer__contact:hover {
+.footer__contact:hover{
   color: var(--color-primary);
 }
 
