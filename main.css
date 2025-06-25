@@ -566,7 +566,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.footer__social-list {
+#footer__social-list {
   display: flex;
   gap: 3rem;
 }
@@ -594,6 +594,10 @@ body {
   font-weight: var(--fw-bold);
   text-decoration: underline;
   transition: var(--transition);
+}
+
+.footer__social-list li{
+  margin: 1rem 0;
 }
 
 .footer__social-link:hover,
